@@ -1,9 +1,9 @@
-import EventImage from "../../../assets/images/5.jpg";
-import EventImage1 from "../../../assets/images/6.jpg";
+import EventImage from "../../../assets/images/4.jpg";
+import EventImage1 from "../../../assets/images/5.jpg";
 import EventImage2 from "../../../assets/images/6.jpg";
-import EventImage3 from "../../../assets/images/4.jpg";
-import EventImage4 from "../../../assets/images/1.jpg";
-import EventImage5 from "../../../assets/images/2.jpg";
+import EventImage3 from "../../../assets/images/7.jpg";
+import EventImage4 from "../../../assets/images/8.jpg";
+import EventImage5 from "../../../assets/images/9.jpg";
 
 export const eventsData = [
   {

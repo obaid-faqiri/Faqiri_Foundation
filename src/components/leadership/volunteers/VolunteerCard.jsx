@@ -1,23 +1,27 @@
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 const VolunteerCard = ({ image, name, role }) => {
   return (
-    <div className="text-center">
-
+    <div>
       <img
         src={image}
-        className="object-cover w-full h-48 rounded-xl"
+        className="object-cover object-top w-full h-64 rounded-xl"
       />
 
-      <h3 className="mt-3 font-semibold">{name}</h3>
-      <p className="text-sm text-gray-500">{role}</p>
+      <h3 className="mt-3 text-xl font-semibold">{name}</h3>
+      <p className="my-3 text-base text-gray-500">{role}</p>
 
-      <div className="flex justify-center gap-3 mt-2 text-gray-500">
+      <div className="flex gap-3 mt-2 text-xl text-gray-500 justify-right">
         <FaFacebookF />
         <FaTwitter />
         <FaInstagram />
+        <FaWhatsapp />
       </div>
-
     </div>
   );
 };

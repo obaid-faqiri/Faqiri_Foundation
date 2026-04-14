@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { reviewsData } from "./reviewsData";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-import img1 from "../../../assets/images/1.jpg";
+import img1 from "../../../assets/images/16.jpg";
 
 const ReviewsSlider = () => {
   const [current, setCurrent] = useState(0);

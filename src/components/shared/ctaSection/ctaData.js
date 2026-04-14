@@ -1,4 +1,7 @@
-import img from "../../../assets/images/1.jpg";
+import img from "../../../assets/images/10.jpg";
+import img1 from "../../../assets/images/11.jpg";
+import img2 from "../../../assets/images/12.jpg";
+import img3 from "../../../assets/images/13.jpg";
 
 export const ctaData = {
   title: "Join us in the journey to empower communities and transform lives.",
@@ -8,8 +11,8 @@ export const ctaData = {
 
   images: [
     img,
-    img,
-    img,
-    img
+    img1,
+    img2,
+    img3
   ]
 };

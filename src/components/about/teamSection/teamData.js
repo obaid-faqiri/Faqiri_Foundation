@@ -1,25 +1,31 @@
-import img1 from "../../../assets/images/2.jpg"
-import img2 from "../../../assets/images/3.jpg"
-import img3 from "../../../assets/images/4.jpg"
-const teamData = [
+import img1 from "../../../assets/images/26.jpg";
+import img2 from "../../../assets/images/27.jpg";
+import img3 from "../../../assets/images/28.jpg";
+import img4 from "../../../assets/images/29.jpg";
+
+export const teamData = [
   {
     id: 1,
-    name: "John Doe",
-    role: "Founder",
-    img: img1
+    name: "Aimee Preece",
+    role: "CEO",
+    image: img1,
   },
   {
     id: 2,
-    name: "Sarah Ali",
-    role: "Coordinator",
-    img:img2
+    name: "Daniel Udall",
+    role: "Volunteer",
+    image: img2,
   },
   {
     id: 3,
-    name: "Michael Lee",
-    role: "Volunteer Lead",
-    img: img3
-  }
+    name: "Christina Boje",
+    role: "Manager",
+    image: img3,
+  },
+  {
+    id: 4,
+    name: "Alec Worthy",
+    role: "Volunteer",
+    image: img4,
+  },
 ];
-
-export default teamData;

@@ -9,7 +9,7 @@ const EventCard = ({ image, title, description, category }) => {
 
         <p className="my-5 text-gray-500 text-md">{description}</p>
 
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between ">
           <span className="flex items-center gap-2 text-gray-500 text-md">
             <FaDonate />
             {category}

@@ -1,4 +1,4 @@
-import img from "../../../assets/images/5.jpg";
+import img from "../../../assets/images/44.jpg";
 
 export const eventDetailsData = {
   title: "Emergency Fund for Rapid Relief Assistance",

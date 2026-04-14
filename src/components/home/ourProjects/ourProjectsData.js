@@ -1,6 +1,6 @@
-import img1 from "../../../assets/images/1.jpg";
-import img2 from "../../../assets/images/2.jpg";
-import img3 from "../../../assets/images/3.jpg";
+import img1 from "../../../assets/images/14.jpg";
+import img2 from "../../../assets/images/15.jpg";
+import img3 from "../../../assets/images/16.jpg";
 
 export const ourProjectsData = [
   {

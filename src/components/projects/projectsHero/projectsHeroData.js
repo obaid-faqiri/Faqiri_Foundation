@@ -1,5 +1,8 @@
+import heroImg from "../../../assets/images/1.jpg"; // 👈 change to your image
+
 export const projectsHeroData = {
   title: "Projects",
   description:
-    "Explore our impactful projects and see how we are making a difference.",
+    "Lambda is more than just a charity organization; it's a movement fueled by compassion and a vision of a better world.",
+  image: heroImg,
 };

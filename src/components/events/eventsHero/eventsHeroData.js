@@ -1,5 +1,8 @@
+import heroImg from "../../../assets/images/5.jpg"; // 👈 change to your image
+
 export const eventsHeroData = {
-  title: "Events",
+  title: "Our Events",
   description:
-    "Join our events and be part of meaningful change in communities around the world.",
+    "Explore our upcoming and past events, bringing communities together.",
+  image: heroImg,
 };

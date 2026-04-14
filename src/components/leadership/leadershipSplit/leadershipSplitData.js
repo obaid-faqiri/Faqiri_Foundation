@@ -1,4 +1,4 @@
-import img from "../../../assets/images/3.jpg";
+import img from "../../../assets/images/1.jpg";
 
 export const leadershipSplitData = {
   title: "At Lambda, we prioritize transparency & inclusivity",

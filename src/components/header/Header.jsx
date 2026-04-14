@@ -9,9 +9,8 @@ const Header = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-   <header className="fixed top-6 left-1/2 -translate-x-1/2 w-[90%] z-50 bg-[#0e3b3b] text-white px-8 py-4 rounded-full shadow-lg">
+    <header className="fixed top-6 left-1/2 -translate-x-1/2 w-[93%] z-50 bg-[#0e3b3b] text-white px-8 py-4 rounded-full shadow-lg">
       <div className="flex items-center justify-between mx-auto max-w-7xl">
-
         {/* Logo */}
         <Link to="/">
           <h1 className="text-3xl font-bold text-green-200">

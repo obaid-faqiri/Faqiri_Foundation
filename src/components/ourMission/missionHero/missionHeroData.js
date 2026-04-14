@@ -1,4 +1,4 @@
-import imgg from "../../../assets/images/6.jpg";
+import imgg from "../../../assets/images/30.jpg";
 export const missionHeroData = {
   title: "Our Missions are!",
   description:

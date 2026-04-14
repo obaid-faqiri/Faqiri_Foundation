@@ -3,43 +3,38 @@ import { FaPlay } from "react-icons/fa";
 
 const LeadersPreview = () => {
   return (
-    <section className="-mt-20 px-6">
+    <section className="px-6 -mt-40 lg:px-12 xl:px-20">
+      <div className="mx-auto max-w-7xl">
+        {/* GRID */}
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {leadersPreviewData.map((item) => (
+            <div key={item.id} className="text-center">
+              {/* IMAGE */}
+              <div className="relative overflow-hidden shadow-lg rounded-2xl">
+                <img
+                  src={item.image}
+                  alt={item.name}
+                  className="w-full h-[260px] object-cover object-top"
+                />
 
-      <div className="grid max-w-6xl gap-6 mx-auto md:grid-cols-3">
-
-        {leadersPreviewData.map((leader) => (
-          <div key={leader.id} className="text-center">
-
-            <div className="relative overflow-hidden rounded-xl">
-
-              <img
-                src={leader.image}
-                alt={leader.name}
-                className="object-cover w-full h-56"
-              />
-
-              {/* Play Button */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="flex items-center justify-center w-12 h-12 text-white bg-teal-700 rounded-full">
-                  <FaPlay size={14} />
+                {/* PLAY BUTTON */}
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <div className="flex items-center justify-center w-12 h-12 bg-white rounded-full shadow">
+                    <FaPlay className="text-[#0e3b3b]" />
+                  </div>
                 </div>
               </div>
 
+              {/* TEXT */}
+              <h3 className="mt-3 text-lg font-semibold text-[#0e3b3b]">
+                {item.name}
+              </h3>
+
+              <p className="text-base text-gray-500">{item.role}</p>
             </div>
-
-            <h3 className="mt-4 font-semibold">
-              {leader.name}
-            </h3>
-
-            <p className="text-sm text-gray-500">
-              {leader.role}
-            </p>
-
-          </div>
-        ))}
-
+          ))}
+        </div>
       </div>
-
     </section>
   );
 };

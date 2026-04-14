@@ -3,10 +3,8 @@ import { bannerItems } from "./bannerData";
 
 const HelpingBanner = () => {
   return (
-    <div className="py-6 overflow-hidden text-white bg-green-700">
-
+    <div className="py-6 overflow-hidden bg-[#c0fecf] mt-11 text-[#0e3b3b]">
       <div className="flex items-center whitespace-nowrap animate-marquee">
-
         {bannerItems.map((text, index) => (
           <div
             key={index}
@@ -26,9 +24,7 @@ const HelpingBanner = () => {
             {text}
           </div>
         ))}
-
       </div>
-
     </div>
   );
 };

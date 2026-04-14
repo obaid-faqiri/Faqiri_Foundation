@@ -5,11 +5,8 @@ import { CTA } from "../components/shared/ctaSection";
 const Causes = () => {
   return (
     <main>
-
       <CausesHero />
       <CausesSection />
-      <CTA />
-
     </main>
   );
 };

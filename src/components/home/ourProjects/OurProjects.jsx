@@ -3,15 +3,12 @@ import OurProjectsCard from "./OurProjectsCard";
 
 const OurProjects = () => {
   return (
-    <section className="px-6 py-24 m-20 ">
+    <section className="px-4 py-10 lg:mx-16">
       <div className="mx-auto max-w-7xl">
-        {/* Header */}
-
-        <div className="grid gap-10 mb-16 lg:grid-cols-2">
-          <h2 className="text-3xl font-bold">
+        <div className="grid gap-6 mb-12 lg:grid-cols-2">
+          <h2 className="text-3xl font-bold lg:text-[33px]">
             Projects for the charity donation organization
           </h2>
-
           <p className="text-gray-500">
             These projects showcase Lambda commitment to addressing a diverse
             range of issues including education, healthcare, economic
@@ -19,9 +16,6 @@ const OurProjects = () => {
             environmental sustainability.
           </p>
         </div>
-
-        {/* Cards */}
-
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           {ourProjectsData.map((project) => (
             <OurProjectsCard key={project.id} {...project} />
@@ -31,5 +25,4 @@ const OurProjects = () => {
     </section>
   );
 };
-
 export default OurProjects;

@@ -1,6 +1,7 @@
-import img1 from "../../../assets/images/4.jpg";
-import img2 from "../../../assets/images/5.jpg";
-import img3 from "../../../assets/images/6.jpg";
+import img1 from "../../../assets/images/29.jpg";
+import img2 from "../../../assets/images/28.jpg";
+import img3 from "../../../assets/images/27.jpg";
+import img4 from "../../../assets/images/26.jpg";
 
 export const leadersPreviewData = [
   {

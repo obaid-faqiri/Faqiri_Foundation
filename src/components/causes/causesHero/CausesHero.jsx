@@ -1,21 +1,21 @@
-import { causesHeroData } from "./causesHeroData";
-
 const CausesHero = () => {
   return (
-    <section className="pt-24 pb-32 text-center text-white bg-teal-900 rounded-b-[40px]">
+    <section className="px-4 mb-10 sm:px-6 lg:px-12 xl:px-20 lg:mt-8">
+      {/* DARK HEADER */}
+      <div className="bg-[#0e3b3b] rounded-[30px] lg:rounded-[40px] pt-20 pb-28 text-center mt-[-50px]">
+        <div className="max-w-3xl mx-auto">
+          {/* TITLE */}
+          <h1 className="text-3xl font-bold text-white sm:text-4xl lg:text-6xl">
+            Causes
+          </h1>
 
-      <div className="max-w-3xl px-6 mx-auto">
-
-        <h1 className="mb-4 text-4xl font-bold md:text-5xl">
-          {causesHeroData.title}
-        </h1>
-
-        <p className="text-gray-200">
-          {causesHeroData.description}
-        </p>
-
+          {/* DESCRIPTION */}
+          <p className="mt-6 text-lg text-gray-300 ">
+            Lambda is more than just a charity organization; it's a movement
+            fueled by compassion and a vision of a better world.
+          </p>
+        </div>
       </div>
-
     </section>
   );
 };

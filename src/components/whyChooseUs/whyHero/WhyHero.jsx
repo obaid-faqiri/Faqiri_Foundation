@@ -1,21 +1,32 @@
-import { whyHeroData } from "./whyHeroData";
-
+import img from "../../../assets/images/41.jpg";
 const WhyHero = () => {
   return (
-    <section className="pt-24 pb-32 text-center text-white bg-teal-900 rounded-b-[40px]">
+    <section className="px-4 mb-10 sm:px-6 lg:px-12 xl:px-20 lg:mt-8">
+      {/* DARK HEADER */}
+      <div className="bg-[#0e3b3b] rounded-[30px] lg:rounded-[40px] pt-20 pb-28 text-center mt-[-50px]">
+        <div className="max-w-3xl mx-auto">
+          {/* TITLE */}
+          <h1 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
+            Why Choose Us
+          </h1>
 
-      <div className="max-w-3xl px-6 mx-auto">
-
-        <h1 className="mb-4 text-4xl font-bold md:text-5xl">
-          {whyHeroData.title}
-        </h1>
-
-        <p className="text-gray-200">
-          {whyHeroData.description}
-        </p>
-
+          {/* DESCRIPTION */}
+          <p className="my-6 text-sm text-gray-300 sm:text-base">
+            We are more than a charity donation organization; we are a force
+            fueled by compassion, committed to uplifting communities and
+            transforming lives around the world.
+          </p>
+        </div>
       </div>
 
+      {/* IMAGE SECTION (SEPARATE — THIS IS THE KEY) */}
+      <div className="mx-auto -mt-16 max-w-7xl lg:-mt-20">
+        <img
+          src={img}
+          alt="about"
+          className="w-full h-[220px] sm:h-[300px] lg:h-[420px] object-cover rounded-[20px] lg:rounded-[25px] border-[6px] border-white object-top"
+        />
+      </div>
     </section>
   );
 };
