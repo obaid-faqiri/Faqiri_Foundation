@@ -1,4 +1,4 @@
-import { volunteersData } from "./volunteersData";
+import { volunteersData } from "./VolunteersData";
 import VolunteerCard from "./VolunteerCard";
 
 const VolunteersSection = () => {
