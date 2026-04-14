@@ -1,1 +1,1 @@
-export { default } from "./leadershipSplit";
+export { default } from "./LeadershipSplit"; 
